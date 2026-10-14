@@ -1,0 +1,24 @@
+{
+  "id": "./index.html",
+  "name": "NAB Pay - مصرف شمال أفريقيا",
+  "short_name": "NAB Pay",
+  "description": "محفظة NAB Pay من مصرف شمال أفريقيا: بطاقتك الافتراضية، التحويلات والمدفوعات.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "categories": ["finance", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "إرسال", "url": "./index.html?a=send", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "شراء / دفع", "url": "./index.html?a=pay", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
